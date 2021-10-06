@@ -1,5 +1,5 @@
 @echo off
 cls
 title sei un coglione (divertiti con il bot).
-py Main.py
+py Main
 cmd /k
