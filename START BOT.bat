@@ -1,5 +1,1 @@
-@echo off
-cls
-title sei un coglione (divertiti con il bot).
-py fortnite.py
-cmd /k
+py -3 -m pip install -U fortnitepy
