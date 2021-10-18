@@ -4,7 +4,7 @@ import os
 
 from fortnitepy.ext import commands
 
-email = 'email@email.com'
+email = 'botemail@gmail.com'
 password = 'password1'
 filename = 'device_auths.json'
 
