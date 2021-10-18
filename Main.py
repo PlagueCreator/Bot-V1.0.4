@@ -55,3 +55,5 @@ async def hello(ctx):
     await ctx.send('sei un coglione')
 
 bot.run()
+
+
