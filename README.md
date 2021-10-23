@@ -1,4 +1,4 @@
-# Bot-V1.0.0
+# Bot-V1.0.1
 Fortnite Lobbybot
 
 bot is working for 18.21 patch
