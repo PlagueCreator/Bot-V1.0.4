@@ -1,5 +1,5 @@
 fortnitepy
 crayons
 FortniteAPIAsync
-json==0.2
+json
 os
