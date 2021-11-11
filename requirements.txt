@@ -1,5 +1,5 @@
 fortnitepy
+BenBotAsync
 crayons
-FortniteAPIAsync
-json
-os
+pypresence
+psutil
