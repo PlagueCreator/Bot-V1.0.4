@@ -7,3 +7,5 @@ steps:
 3. In the unzipped folder open "Config.js" and modify it as you want
 4. Run "Install packages.bat" then run "Start bot.bat" , if you close the command prompt your bot will shut down.
 5. u can find a valid authorization code here: https://rebrand.ly/authcode
+
+bot is working on 18.30 patch!
