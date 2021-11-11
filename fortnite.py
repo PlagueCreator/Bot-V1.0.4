@@ -1,3 +1,24 @@
+"""
+“Commons Clause” License Condition v1.0
+Copyright Oli 2019
+The Software is provided to you by the Licensor under the
+License, as defined below, subject to the following condition.
+Without limiting other conditions in the License, the grant
+of rights under the License will not include, and the License
+does not grant to you, the right to Sell the Software.
+For purposes of the foregoing, “Sell” means practicing any or
+all of the rights granted to you under the License to provide
+to third parties, for a fee or other consideration (including
+without limitation fees for hosting or consulting/ support
+services related to the Software), a product or service whose
+value derives, entirely or substantially, from the functionality
+of the Software. Any license notice or attribution required by
+the License must also include this Commons Clause License
+Condition notice.
+Software: 
+License: Apache 2.0
+"""
+
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
@@ -33,12 +54,12 @@ except ModuleNotFoundError:
     exit()
 
 print(f'  ')
-print(color.CYAN + f'   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—')
-print(color.CYAN + f'   â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â•šâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•”â•     â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•—â•šâ•â•â–ˆâ–ˆâ•”â•â•â•')
-print(color.CYAN + f'   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â• â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   ')
-print(color.CYAN + f'   â–ˆâ–ˆâ•”â•â•â•â•   â•šâ–ˆâ–ˆâ•”â• â•šâ•â•â•â•â•â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   ')
-print(color.CYAN + f'   â–ˆâ–ˆâ•‘        â–ˆâ–ˆâ•‘        â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•   â–ˆâ–ˆâ•‘   ')
-print(color.CYAN + f'   â•šâ•â•        â•šâ•â•        â•šâ•â•â•â•â•â•  â•šâ•â•â•â•â•â•    â•šâ•â•   ')
+print(color.CYAN + f'   ██████╗ ██╗   ██╗     ██████╗  ██████╗ ████████╗')
+print(color.CYAN + f'   ██╔══██╗╚██╗ ██╔╝     ██╔══██╗██╔═══██╗╚══██╔══╝')
+print(color.CYAN + f'   ██████╔╝ ╚████╔╝█████╗██████╔╝██║   ██║   ██║   ')
+print(color.CYAN + f'   ██╔═══╝   ╚██╔╝ ╚════╝██╔══██╗██║   ██║   ██║   ')
+print(color.CYAN + f'   ██║        ██║        ██████╔╝╚██████╔╝   ██║   ')
+print(color.CYAN + f'   ╚═╝        ╚═╝        ╚═════╝  ╚═════╝    ╚═╝   ')
 print(f'  ')
 
 def debugOn():
@@ -1594,5 +1615,4 @@ try:
     client.run()
 except fortnitepy.AuthException as e:
     print(Fore.RED + f" [PYBOT] [{getTime()}] [ERROR] {e}")
-
       
