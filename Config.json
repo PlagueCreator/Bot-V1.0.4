@@ -1,24 +1,24 @@
 {
     "email": "",
     "password": "",
-    "cid": "CID_039_athena_commando_f_disco",
-    "bid": "BID_004_BlackKnight",
+    "cid": "CID_035_Athena_Commando_M_Medieval",
+    "bid": "BID_077_WeGame",
     "pid": "Pickaxe_Lockjaw",
-    "banner": "otherbanner28",
+    "banner": "BRS12_Prestige4",
     "banner_color": "defaultcolor22",
-    "level": "1000",
+    "level": "1001",
     "bp_tier": 999,
-    "status": "Fortnite bot by plague",
-    "platform": "WIN",
+    "status": "I love u @Chiaraa ❤️",
+    "platform": "XBL",
     "friendaccept": "True",
     "joinoninvite": "False",
-    "AdminPassword": "0001",
+    "AdminPassword": "1234",
     "FullAccess": [
     "Epic Games",
     ""
     ],
     "BlockList": [
-    "",
+    "Conad",
     ""
     ]
 }
