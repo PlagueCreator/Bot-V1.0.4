@@ -54,12 +54,12 @@ except ModuleNotFoundError:
     exit()
 
 print(f'  ')
-print(color.RED + f'   ██████╗ ██╗   ██╗     ██████╗  ██████╗ ████████╗')
-print(color.RED + f'   ██╔══██╗╚██╗ ██╔╝     ██╔══██╗██╔═══██╗╚══██╔══╝')
-print(color.RED + f'   ██████╔╝ ╚████╔╝█████╗██████╔╝██║   ██║   ██║   ')
-print(color.RED + f'   ██╔═══╝   ╚██╔╝ ╚════╝██╔══██╗██║   ██║   ██║   ')
-print(color.RED + f'   ██║        ██║        ██████╔╝╚██████╔╝   ██║   ')
-print(color.RED + f'   ╚═╝        ╚═╝        ╚═════╝  ╚═════╝    ╚═╝   ')
+print(color.PURPLE + f'   ██████╗ ██╗   ██╗     ██████╗  ██████╗ ████████╗')
+print(color.PURPLE + f'   ██╔══██╗╚██╗ ██╔╝     ██╔══██╗██╔═══██╗╚══██╔══╝')
+print(color.PURPLE + f'   ██████╔╝ ╚████╔╝█████╗██████╔╝██║   ██║   ██║   ')
+print(color.PURPLE + f'   ██╔═══╝   ╚██╔╝ ╚════╝██╔══██╗██║   ██║   ██║   ')
+print(color.PURPLE + f'   ██║        ██║        ██████╔╝╚██████╔╝   ██║   ')
+print(color.PURPLE + f'   ╚═╝        ╚═╝        ╚═════╝  ╚═════╝    ╚═╝   ')
 print(f'  ')
 
 def debugOn():
