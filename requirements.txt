@@ -1,6 +1,5 @@
-fortnitepy== 3.6.1
+fortnitepy
 BenBotAsync
 crayons
 pypresence
 psutil
-Discord
