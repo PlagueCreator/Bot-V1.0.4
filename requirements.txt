@@ -1,4 +1,4 @@
-fortnitepy
+fortnitepy== 3.6.1
 BenBotAsync
 crayons
 pypresence
