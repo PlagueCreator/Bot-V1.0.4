@@ -1,24 +1,24 @@
 {
-    "email": "",
-    "password": "",
-    "cid": "CID_035_Athena_Commando_M_Medieval",
-    "bid": "BID_077_WeGame",
-    "pid": "Pickaxe_ID_015_HolidayCandyCane",
+    "email": "BotEmail@gmail.com",
+    "password": "BotPassword",
+    "cid": "CID_029_Athena_Commando_F_Halloween",
+    "bid": "BID_004_BlackKnight",
+    "pid": "Pickaxe_ID_013_Teslacoil",
     "banner": "BRS12_Prestige4",
     "banner_color": "defaultcolor22",
-    "level": "1001",
+    "level": "1000",
     "bp_tier": 999,
     "status": "I love u @Chiaraa ❤️",
-    "platform": "PSN",
+    "platform": "WIN",
     "friendaccept": "True",
-    "joinoninvite": "False",
-    "AdminPassword": "1234",
+    "joinoninvite": "True",
+    "AdminPassword": "9999",
     "FullAccess": [
     "Epic Games",
     ""
     ],
     "BlockList": [
-    "Conad",
+    "",
     ""
     ]
 }
