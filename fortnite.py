@@ -54,12 +54,12 @@ except ModuleNotFoundError:
     exit()
 
 print(f'  ')
-print(color.PURPLE + f'   ██████╗ ██╗   ██╗     ██████╗  ██████╗ ████████╗')
-print(color.PURPLE + f'   ██╔══██╗╚██╗ ██╔╝     ██╔══██╗██╔═══██╗╚══██╔══╝')
-print(color.PURPLE + f'   ██████╔╝ ╚████╔╝█████╗██████╔╝██║   ██║   ██║   ')
-print(color.PURPLE + f'   ██╔═══╝   ╚██╔╝ ╚════╝██╔══██╗██║   ██║   ██║   ')
-print(color.PURPLE + f'   ██║        ██║        ██████╔╝╚██████╔╝   ██║   ')
-print(color.PURPLE + f'   ╚═╝        ╚═╝        ╚═════╝  ╚═════╝    ╚═╝   ')
+print(color.GREEN + f'   ██████╗ ██╗   ██╗     ██████╗  ██████╗ ████████╗')
+print(color.GREEN + f'   ██╔══██╗╚██╗ ██╔╝     ██╔══██╗██╔═══██╗╚══██╔══╝')
+print(color.GREEN + f'   ██████╔╝ ╚████╔╝█████╗██████╔╝██║   ██║   ██║   ')
+print(color.GREEN + f'   ██╔═══╝   ╚██╔╝ ╚════╝██╔══██╗██║   ██║   ██║   ')
+print(color.GREEN + f'   ██║        ██║        ██████╔╝╚██████╔╝   ██║   ')
+print(color.GREEN + f'   ╚═╝        ╚═╝        ╚═════╝  ╚═════╝    ╚═╝   ')
 print(f'  ')
 
 def debugOn():
@@ -889,7 +889,7 @@ async def event_friend_message(message):
             await message.reply(f'Set variants of {args[1]} to {args[2]} {args[3]}.')
             print(f' [PYBOT] [{getTime()}] Set variants of {args[1]} to {args[2]} {args[3]}.')
 
-    if "!check" in args[0].lower():
+    if "!checkeredrenegade" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -921,21 +921,21 @@ async def event_friend_message(message):
             await message.reply('Skin set to Minty Elf!')
             print(f" [PYBOT] [{getTime()}] Client's Skin set to Minty Elf")
             
-    if "!piru" in args[0].lower():
+    if "!hologram" in args[0].lower():
         if message.author.display_name in data['BlockList']:
-            await message.reply("questo messaggio è solo per piru")
+            await message.reply("You don't have access to this command!")
         else:
             variants = client.party.me.create_variants(
                    material=2
                 )
 
             await client.party.me.set_outfit(
-                asset='CID_039_Athena_Commando_F_disco',
+                asset='CID_VIP_Athena_Commando_M_GalileoGondola_SG',
                 variants=variants
                 )
 
             await message.reply('Skin set to hologram!')
-            print(f" [PYBOT] [{getTime()}] Client's Skin set to Sparkle Specialist")
+            print(f" [PYBOT] [{getTime()}] Client's Skin set to hologram")
             
     if "!ghost" in args[0].lower():
         if message.author.display_name in data['BlockList']:
@@ -1001,7 +1001,7 @@ async def event_friend_message(message):
             await message.reply('Skin set to cold henchman!')
             print(f" [PYBOT] [{getTime()}] Client's Skin set to cold henchman")
             
-    if "!noob" in args[0].lower():
+    if "!bot" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -1015,9 +1015,9 @@ async def event_friend_message(message):
                 )
 
             await message.reply('Skin set to BOT :)')
-            print(f" [PYBOT] [{getTime()}] Client's Skin set to noob")
+            print(f" [PYBOT] [{getTime()}] Client's Skin set to bot")
             
-    if "!noob1" in args[0].lower():
+    if "!bot1" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -1033,7 +1033,7 @@ async def event_friend_message(message):
             await message.reply('Skin set to BOT :)')
             print(f" [PYBOT] [{getTime()}] Client's Skin set to bot")
             
-    if "!noob2" in args[0].lower():
+    if "!bot2" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -1049,7 +1049,7 @@ async def event_friend_message(message):
             await message.reply('Skin set to BOT :)')
             print(f" [PYBOT] [{getTime()}] Client's Skin set to bot")
             
-    if "!noob3" in args[0].lower():
+    if "!bot3" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -1065,7 +1065,7 @@ async def event_friend_message(message):
             await message.reply('Skin set to BOT :)')
             print(f" [PYBOT] [{getTime()}] Client's Skin set to bot")
             
-    if "!noob4" in args[0].lower():
+    if "!bot4" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -1081,7 +1081,7 @@ async def event_friend_message(message):
             await message.reply('Skin set to BOT :)')
             print(f" [PYBOT] [{getTime()}] Client's Skin set to bot")
             
-    if "!noob5" in args[0].lower():
+    if "!bot5" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -1097,7 +1097,7 @@ async def event_friend_message(message):
             await message.reply('Skin set to BOT :)')
             print(f" [PYBOT] [{getTime()}] Client's Skin set to bot")
             
-    if "!noob6" in args[0].lower():
+    if "!bot6" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -1113,7 +1113,7 @@ async def event_friend_message(message):
             await message.reply('Skin set to BOT :)')
             print(f" [PYBOT] [{getTime()}] Client's Skin set to bot")
             
-    if "!noob7" in args[0].lower():
+    if "!bot7" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
@@ -1194,21 +1194,21 @@ async def event_friend_message(message):
             await message.reply("You don't have access to this command!")
         else:
             await client.party.me.set_ready(fortnitepy.ReadyState.READY)
-            await message.reply('Ready!')
+            await message.reply('Now Ready!')
 
     if ("!unready" in args[0].lower()) or ("!sitin" in args[0].lower()):
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
             await client.party.me.set_ready(fortnitepy.ReadyState.NOT_READY)
-            await message.reply('Unready!')
+            await message.reply('Now Unready!')
 
     if "!sitout" in args[0].lower():
         if message.author.display_name in data['BlockList']:
             await message.reply("You don't have access to this command!")
         else:
             await client.party.me.set_ready(fortnitepy.ReadyState.SITTING_OUT)
-            await message.reply('Sitting Out!')
+            await message.reply('Now Sitting Out!')
     
     if "!bp" in args[0].lower():
         if message.author.display_name in data['BlockList']:
@@ -1615,4 +1615,4 @@ try:
     client.run()
 except fortnitepy.AuthException as e:
     print(Fore.RED + f" [PYBOT] [{getTime()}] [ERROR] {e}")
-      
+     
