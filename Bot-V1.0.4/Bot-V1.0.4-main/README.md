@@ -1,4 +1,4 @@
-# Bot-V1.0.3
+# Bot-V1.0.4
 Fortnite Lobbybot
 
 steps:
@@ -8,4 +8,4 @@ steps:
 4. Run "INSTALL PACKAGES.bat" then run "START BOT.bat" , if you close the command prompt your bot will shut down.
 5. u can find a valid authorization code here: https://rebrand.ly/authcode
 
-bot is working on 18.40 patch!
+bot is working on 19.00 patch!
