@@ -4,7 +4,7 @@ steps:
 
 1. create a new fortnite account here: https://www.epicgames.com/store/
 
-2. Download and unzip this: https://github.com/PlagueCreator/Fornite_lobbybot_js
+2. Download and unzip this: https://github.com/PlagueCreator/Bot-V1.0.4
 
 In the unzipped folder open "config.js" and modify it as you want
 
