@@ -12,9 +12,9 @@
     "platform": "WIN",
     "friendaccept": "True",
     "joinoninvite": "False",
-    "AdminPassword": "0001",
+    "AdminPassword": "0002",
     "FullAccess": [
-    "Epic Games",
+    "",
     ""
     ],
     "BlockList": [
