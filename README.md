@@ -10,7 +10,7 @@ In the unzipped folder open "config.js" and modify it as you want
 
 3. Run "INSTALLPACKAGES.bat" then run "START BOT.bat" , if you close the command prompt your bot will shut down.
 
-4. can find a valid authorization code here: https://rebrand.ly/authcode
+4. u can find a valid authorization code here: https://rebrand.ly/authcode
 
 5. Enjoy :)
 
