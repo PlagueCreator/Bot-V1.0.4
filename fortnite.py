@@ -15,7 +15,7 @@ value derives, entirely or substantially, from the functionality
 of the Software. Any license notice or attribution required by
 the License must also include this Commons Clause License
 Condition notice.
-Software: 
+Software: "Fortnite lobbybot"
 License: Apache 2.0
 """
 
